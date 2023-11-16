@@ -1,0 +1,28 @@
+{
+  "chain_name": "MANTRACHAIN",
+  "api": [
+    {
+      "address": "https://api.testnet.mantrachain.io",
+      "provider": "MANTRACHAIN"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc.testnet.mantrachain.io",
+      "provider": "MANTRACHAIN"
+    }
+  ],
+  "sdk_version": "0.45.4",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "assets": [{
+    "base": "uaum",
+    "symbol": "AUM",
+    "exponent": "6",
+    "coingecko_id": "aum",
+    "logo": "/mantra-logo.svg"
+  }],
+  "addr_prefix": "mantra",
+  "theme_color": "#ce4747",
+  "logo": "/mantra-logo.svg"
+}
